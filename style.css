@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header part starts here */
+header {
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+  gap: 10px;
+}
+.chatbtn {
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border: 1px solid #27ae60;
+  border-radius: 8px;
+  color: #27ae60;
+  cursor: pointer;
+}
+.callus {
+  background: linear-gradient(to left, #0acefe, #2699fb);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #0acefe;
+}
+.top-section {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+/* ---------------------------top section left side css starts here------------------------------- */
+.top-section-left {
+  width: calc(50% - 20px);
+}
+.top-section-left h1 {
+  font-size: 52px;
+  font-style: Bold;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  top: 153px;
+  left: 158px;
+}
+.top-section-left h1 span {
+  color: #2699fb;
+  background-image: url("./images/Vector\ 63\ \(1\).png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.top-section-left p {
+  font-size: 22px;
+  line-height: 35px;
+  color: #0a2134;
+}
+.top-section-right {
+  width: calc(50% - 20px);
+}
+.digital-marketing-usp {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 14px;
+  display: flex;
+}
+.digital-marketing-usp li {
+  font-size: 22px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+}
+.digital-marketing-usp .usp-content {
+  padding-left: 14px;
+}
+.digital-marketing-usp img {
+  width: 24px;
+  height: 24px;
+}
+.section-left-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+.section-left-buttons .bookdemo {
+  background: linear-gradient(to left, #0acefe, #2699fb);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 48px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #0acefe;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 22px;
+  width: 276px;
+  height: 60px;
+}
+.section-left-buttons .download {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 48px;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #0a2134;
+  margin-top: 22px;
+  width: 276px;
+  height: 60px;
+  border: 1px solid Gray/300;
+}
+/* ---------------------------top section left side css end here------------------------------- */
+
+/* ---------------------------top section right side css starts here------------------------------- */
+
+.top-section-right {
+  width: calc(50% - 20px);
+  position: relative; /* important so absolute children are placed inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section-right .form-container {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  height: 465px;
+  width: 408px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1; /* keep it above circle */
+}
+
+.top-section-right .circle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-section-right .circle img {
+  width: 530px; /* control circle size */
+  height: auto;
+}
+/* ------------------------------------------top section right side form----------------------------------------------------- */
+
+.form-container {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 30px;
+  border-radius: 10px;
+  width: 410px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* reduced spacing between fields */
+  margin-top: 72px;
+}
+
+.form-container label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a2134;
+}
+
+.form-container input,
+.form-container select {
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  transition: border 0.3s;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  border-color: #2699fb;
+}
+
+.phone-input {
+  display: flex;
+  width: 100%;
+}
+
+.phone-input select {
+  width: 80px;
+  border-radius: 8px 0 0 8px; /* round left only */
+  border-right: none; /* removes gap */
+}
+
+.phone-input input {
+  flex: 1;
+  border-radius: 0 8px 8px 0; /* round right only */
+}
+
+.register-btn {
+  background: linear-gradient(to right, #0acefe, #2699fb);
+  color: #fff;
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.register-btn:hover {
+  opacity: 0.9;
+}
+/* ------------------------------------------top section right side form end------------------------------------------------- */
+
+/* ------------------------------------------student section css start------------------------------------------------- */
+
+.student-section {
+  width: 1170px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+
+  margin-top: 98px;
+}
+.student-section .students-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 146px;
+}
+.student-section .students-container .box-team {
+  flex: 1;
+  text-align: center;
+}
+.student-section .students-container .box-team .heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #2699fb;
+  /* line-height: 100%; */
+  margin-bottom: 10px;
+}
+.student-section .students-container .box-team .sub-heading {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #43505b;
+}
+
+/* ------------------------------------------student section css end------------------------------------------------- */
+
+/* ------------------------------------------key highlightis section css start------------------------------------------ */
+
+.key-highlights {
+  background-image: url("./images/Rectangle-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 641px;
+  margin: auto;
+  margin-top: 74px;
+}
+.key-highlights h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0%;
+  line-height: 100%;
+  color: #0a2134;
+}
+.key-highlights span {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #0a2134;
+}
+.key-highlights-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 35px;
+}
+.key-highlights-stats .box-iteam {
+  width: 370px;
+  height: 118px;
+
+}
+.key-highlights-content {
+  margin-top: 156px;
+  margin-left: 120px;
+}
