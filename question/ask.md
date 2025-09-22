@@ -17,3 +17,5 @@ when im removing border margin-top not applying on h1 of development
 .............................
 
 Are You Ready To Start Your Course? side img are not applying
+
+hello
