@@ -544,15 +544,21 @@ header {
   height: 639px;
   margin-top: 118px;
   margin-left: 30px;
-  position: absolute;
+  z-index: 999;
 }
 .backside-imgs .upper-bg img {
   width: 154px;
   height: 154px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 12px;
 }
 .backside-imgs .lower-bg img {
   width: 228px;
   height: 228px;
+  position: absolute;
+  margin-top: 610px;
+  margin-left: 350px;
 }
 .curriculum-heading-links {
   display: flex;
@@ -815,11 +821,11 @@ header {
   height: 60px;
   margin-top: 70px;
 }
-/* .side-imgs {
+.side-imgs {
   display: flex;
   justify-content: space-between;
   align-items: center;
-} */
+}
 /* Are You Ready To Start Your Course? end */
 
 /*  Digital Marketing Course FAQs starts */
@@ -899,9 +905,24 @@ header {
   font-size: 36px;
   font-weight: bold;
 }
-.top-com-container img {
-  margin-top: 34px;
+.topcom-container {
+  width: 1116px;
+  height: 102px;
 }
+.topcom-container .topcom-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.topcom-container .topcom-logos img {
+  height: 70px; /* uniform height */
+  width: auto; /* keep aspect ratio */
+  object-fit: contain;
+}
+/* .top-com-container img {
+  margin-top: 34px;
+} */
 /* Top Companies Hiring Digital Marketing in India end */
 
 /* footer starts */
