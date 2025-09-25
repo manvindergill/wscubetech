@@ -60,6 +60,8 @@ header {
   border-radius: 8px;
   border: 1px solid #0acefe;
   cursor: pointer;
+  color: white;
+  font-weight: 500;
 }
 .top-section {
   width: 1170px;
