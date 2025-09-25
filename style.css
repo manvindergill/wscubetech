@@ -459,8 +459,7 @@ header {
 
 /* --------------certified section css starts-------------------- */
 
-
-.main-certified-section{
+.main-certified-section {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -568,8 +567,6 @@ header {
   margin-top: 610px;
   margin-left: 350px;
 }
-
-
 
 .curriculum-heading-links {
   display: flex;
@@ -794,28 +791,28 @@ header {
   height: 384px;
   background: linear-gradient(to right, #0acefe, #2699fb);
   border-radius: 8px;
-  margin: auto;
   margin-top: 135px;
 }
+
 .course-digital-section {
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 999;
 }
 .digital-section-main-heading {
   margin-top: 63px;
   text-align: center;
 }
-
-.digital-section-description {
+.digital-section-main-heading .description {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
   color: #ffffff;
   text-align: center;
 }
-.start-course-highlights-button button {
+.course-digital-section .start-course-button button {
   background-color: white;
   display: flex;
   align-items: center;
@@ -833,10 +830,13 @@ header {
   margin-top: 70px;
 }
 .side-imgs {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  margin-top: -330px;
+}
+.side-imgs img{
+  height: 384px;
 }
 /* Are You Ready To Start Your Course? end */
 
