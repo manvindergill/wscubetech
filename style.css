@@ -51,7 +51,7 @@ header {
   cursor: pointer;
 }
 .chatbtn .fa-whatsapp {
-  font-size: 20px;
+  font-size: 15px;
 }
 .chatbtn:hover {
   background: linear-gradient(to right, #03b500, #00d118);
@@ -76,7 +76,6 @@ header {
   border: 1px solid #759097;
   cursor: pointer;
   color: white;
-  font-weight: 500;
 }
 
 .callus:hover {
@@ -412,14 +411,16 @@ header {
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .box-iteam:hover {
-  background: linear-gradient(to right, #03b500, #00d118);
-  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  transform: scale(1.1);
 }
-.box-iteam:hover span {
-  color: white;
-}
+
 .box-iteam .box-item-content {
   display: flex;
   align-items: center;
@@ -523,6 +524,16 @@ header {
   border: 2px solid #f2f4f7;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
+  transition: 0.5s;
+}
+.digital-section-box-container .main-boxes:hover {
+  width: 270px;
+  height: 278px;
+  border: 2px solid #f2f4f7;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .main-boxes .content-icon {
   width: 56px;
@@ -606,7 +617,19 @@ header {
   display: flex;
   align-items: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
 }
+.left-side-container-box:hover {
+  width: 570px;
+  height: 128px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .left-box-item-content {
   display: flex;
   margin: 24px;
@@ -818,7 +841,6 @@ header {
   height: 284px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  border: 1px solid red;
   transition: 0.5s;
 }
 .learn-digital-marketing-section-box-container .dm-box:hover {
@@ -826,11 +848,9 @@ header {
   height: 284px;
   border-radius: 8px;
   box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
-  border: 1px solid green;
-  background: linear-gradient(to right, #03b500, #00d118);
-  color: white;
   transform: scale(1.1);
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .dm-box .dm-box-content h1 {
   font-size: 20px;
@@ -901,11 +921,27 @@ header {
   width: 50%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.5s;
+}
+.left-side-students-card:hover {
+  width: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 .right-side-students-card {
   width: 50%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 0.5s;
+}
+.right-side-students-card:hover {
+  width: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transform: scale(1.01);
+  cursor: pointer;
 }
 .st-card-person {
   display: flex;
@@ -1023,6 +1059,7 @@ header {
   margin-top: 40px;
   border-radius: 8px;
   border: line;
+  cursor: pointer;
 }
 .development .minus {
   margin-left: 720px;
@@ -1054,6 +1091,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .dev-boxes .dev-boxes-heading {
   margin-left: 30px;
