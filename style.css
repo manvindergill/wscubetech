@@ -413,6 +413,13 @@ header {
   align-items: center;
   cursor: pointer;
 }
+.box-iteam:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  color: white;
+}
+.box-iteam:hover span {
+  color: white;
+}
 .box-iteam .box-item-content {
   display: flex;
   align-items: center;
@@ -440,7 +447,6 @@ header {
   margin-left: 10px;
   padding-top: 5px;
 }
-
 .key-highlights-button button {
   background: linear-gradient(to left, #0acefe, #2699fb);
   display: flex;
@@ -692,11 +698,9 @@ header {
   height: 4px;
   background-color: #007bff;
 }
-.curriculum-heading-link-boxes .box-underline {
-  width: 155px;
-  height: 4px;
-  background-color: #007bff;
-  margin: 10px auto 0 auto; /* centers the line */
+
+.curriculum-heading-link-boxes:hover {
+  background-color: #f2f4f7;
 }
 .curriculum-usp-points {
   width: 1170px;
@@ -814,6 +818,19 @@ header {
   height: 284px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid red;
+  transition: 0.5s;
+}
+.learn-digital-marketing-section-box-container .dm-box:hover {
+  width: 370px;
+  height: 284px;
+  border-radius: 8px;
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px;
+  border: 1px solid green;
+  background: linear-gradient(to right, #03b500, #00d118);
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .dm-box .dm-box-content h1 {
   font-size: 20px;
