@@ -50,6 +50,21 @@ header {
   color: #27ae60;
   cursor: pointer;
 }
+.chatbtn .fa-whatsapp {
+  font-size: 20px;
+}
+.chatbtn:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border: 1px solid green;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
 .callus {
   background: linear-gradient(to left, #0acefe, #2699fb);
   display: flex;
@@ -58,7 +73,21 @@ header {
   padding: 10px 18px;
   justify-content: center;
   border-radius: 8px;
-  border: 1px solid #0acefe;
+  border: 1px solid #759097;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.callus:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #00d118;
   cursor: pointer;
   color: white;
   font-weight: 500;
@@ -142,6 +171,22 @@ header {
   height: 60px;
   cursor: pointer;
 }
+.bookdemo:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 48px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid green;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 22px;
+  width: 276px;
+  height: 60px;
+  cursor: pointer;
+}
 .section-left-buttons .download {
   background: #ffffff;
   display: flex;
@@ -158,6 +203,23 @@ header {
   border: 1px solid Gray/300;
   cursor: pointer;
 }
+.download:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 48px;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 22px;
+  width: 276px;
+  height: 60px;
+  border: 1px solid green;
+  cursor: pointer;
+}
+
 /* top section left side css end here*/
 
 /* top section right side css starts here */
@@ -259,6 +321,14 @@ header {
 
 .register-btn:hover {
   opacity: 0.9;
+  background: linear-gradient(to right, #03b500, #00d118);
+  font-size: 16px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  cursor: pointer;
 }
 /* top section right side form end */
 
@@ -390,6 +460,26 @@ header {
   height: 60px;
   margin-bottom: 120px;
 }
+.key-highlights-button button:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid green;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(10, 206, 254, 0.25);
+  width: 253px;
+  height: 60px;
+  margin-bottom: 120px;
+}
+
 /* --------------digital section starts here--------------------*/
 .digital-section {
   text-align: center;
@@ -664,6 +754,23 @@ header {
   margin: auto;
   margin-top: 40px;
 }
+.uspkey-highlights-button button:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid green;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(10, 206, 254, 0.25);
+  margin: auto;
+  margin-top: 40px;
+}
 
 /* Why Learn Digital Marketing starts here */
 
@@ -732,6 +839,25 @@ header {
   justify-content: center;
   border-radius: 8px;
   border: 1px solid #0acefe;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(10, 206, 254, 0.25);
+  margin-top: 40px;
+  width: 253px;
+  height: 60px;
+}
+.digital-key-highlights-button button:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid green;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
@@ -831,13 +957,30 @@ header {
   height: 60px;
   margin-top: 70px;
 }
+.course-digital-section .start-course-button button:hover {
+  background: linear-gradient(to right, #03b500, #00d118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid green;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(10, 206, 254, 0.25);
+  margin: auto;
+  width: 253px;
+  height: 60px;
+  margin-top: 70px;
+}
 .side-imgs {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: -330px;
 }
-.side-imgs img{
+.side-imgs img {
   height: 384px;
 }
 /* Are You Ready To Start Your Course? end */
